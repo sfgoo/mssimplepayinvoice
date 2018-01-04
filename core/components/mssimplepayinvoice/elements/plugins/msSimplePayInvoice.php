@@ -3,21 +3,21 @@ switch ($modx->event->name) {
     
     case 'msOnCreateOrder':
         
-        error_reporting(E_ALL);
+        //error_reporting(E_ALL);
         
         $year               = date('Y');
         $month              = date('m');
         $day                = date('d');
         $time               = time();
         
-        $payment_ids        = $modx->getOption('mssimplepayinvoice.payment', null, 1); 
-        $tplWrapper         = $modx->getOption('mssimplepayinvoice.tplWrapper', null, 'tpl.mssimplepayinvoiceWrapper');
-        $tplRow             = $modx->getOption('mssimplepayinvoice.tplRow', null, 'tpl.mssimplepayinvoiceRow');
-        $pdfPath            = $modx->getOption('mssimplepayinvoice.pdfPath', null, MODX_ASSETS_PATH.'pdf/'.$year.'/'.$month.'/');
-        $emailFrom          = $modx->getOption('mssimplepayinvoice.emailFrom', null, $modx->getOption('emailsender'));
-        $nameFrom           = $modx->getOption('mssimplepayinvoice.nameFrom', null, $modx->getOption('site_name'));
-        $mailSubject        = $modx->getOption('mssimplepayinvoice.mailSubject', null, 'Pay Invoice');
-        $mailBody           = $modx->getOption('mssimplepayinvoice.mailBody', null, 'Pay Invoice');
+        $payment_ids        = $modx->getOption('mssimplepayinvoice_payment', null, 1); 
+        $tplWrapper         = $modx->getOption('mssimplepayinvoice_tplWrapper', null, 'tpl.mssimplepayinvoiceWrapper');
+        $tplRow             = $modx->getOption('mssimplepayinvoice_tplRow', null, 'tpl.mssimplepayinvoiceRow');
+        $pdfPath            = $modx->getOption('mssimplepayinvoice_pdfPath', null, MODX_ASSETS_PATH.'pdf/'.$year.'/'.$month.'/');
+        $emailFrom          = $modx->getOption('mssimplepayinvoice_emailFrom', null, $modx->getOption('emailsender'));
+        $nameFrom           = $modx->getOption('mssimplepayinvoice_nameFrom', null, $modx->getOption('site_name'));
+        $mailSubject        = $modx->getOption('mssimplepayinvoice_mailSubject', null, 'Pay Invoice');
+        $mailBody           = $modx->getOption('mssimplepayinvoice_mailBody', null, 'Pay Invoice');
         
         $products           = array();
         $wrapper            = array();

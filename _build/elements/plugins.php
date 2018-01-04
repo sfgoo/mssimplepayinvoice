@@ -2,7 +2,7 @@
 
 return [
     'msSimplePayInvoice' => [
-        'file' => 'msSimplePayInvoice',
+        'file' => 'mssimplepayinvoice',
         'description' => '',
         'events' => [
             'msOnCreateOrder' => [],
