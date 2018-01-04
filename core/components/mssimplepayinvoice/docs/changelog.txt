@@ -1,32 +1,6 @@
 --------------------
-Extra: mixedImage -  Custom TV
-
-# Version 1.1.5-beta
-:: Fixed media path on ajax request
-:: Fixed undefined in manager lexicon
-
---------------------
-# Version 1.1.4-beta
-:: Fixed {alias}
-
---------------------
-# Version 1.1.3-beta
-:: Fixed for media source path in context
-
---------------------
-# Version 1.1.2-beta
-:: Fixed for media source path  (2)
-
---------------------
-# Version 1.1.1-beta 
-:: legiero: Fixed css
-:: Fixed russian filename
-
---------------------
-# Version 1.1.0-beta
- :: Add resize options
- :: Fixed for MIGX
- :: Fixed for media source path
+Extra: msSimplePayInvoice -  create pdf file after create order in minishop2
+ 
 
 --------------------
 # Version 1.0.0-beta

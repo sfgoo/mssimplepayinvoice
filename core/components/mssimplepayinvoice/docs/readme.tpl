@@ -1,5 +1,5 @@
 --------------------
-Extra: mixedImage
+Extra: msSimplePayInvoice
 --------------------
 Version: {$version}
 Build:   {$date}
@@ -9,4 +9,4 @@ Author: Evgeniy Webinmd <info@webinmd.com>
 License: GNU GPLv2
 
 This project is hosted on github:
-https://github.com/MrJenika/mixedimage
+https://github.com/webinmd/mssimplepayinvoice
