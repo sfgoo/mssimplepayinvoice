@@ -72,7 +72,7 @@
                             </tr>
                             <tr>
                                 <td>Room:</td>          
-                                <td[[+mspRoom]]></td>
+                                <td>[[+mspRoom]]</td>
                             </tr>
                             <tr>
                                 <td>Comment:</td>       
